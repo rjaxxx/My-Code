@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:');
+
+/* This bit you can't change. */
+body {
+  margin: 50px;
+  font-family: 'Courier Prime';
+  color: white;
+  background-color: rgb(20, 20, 20);
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+h1{
+  font-family: 'Cabin';
+  font-size: 80px;
+}
+h2{
+  font-size: 20px;
+}
+h2, h3{
+  border-bottom: 5px rgb(174, 0, 255) solid;
+}
+
+h1, h3, span{
+ color: rgb(255, 255, 255);
+}
+
+span{
+   font-family: "Courier Prime";
+}
+/* Override heading and span styles here. */
+
+div {
+  display: inline-block;
+  vertical-align: top;
+  width: 49.3%;
+}
+a{
+  font-size: 25px;
+  color: rgb(174, 0, 255)
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 10px rgb(174, 0, 255) solid;
+}
